@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# AWS
+.aws/
+*.pem
+
+# Ansible
+*.retry
+
+# Docker
+.env
+
+# OS
+.DS_Store
