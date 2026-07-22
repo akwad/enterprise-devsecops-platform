@@ -1,24 +1,29 @@
-i# AWS Architecture Diagram
+# AWS Architecture Diagram
 
 
 ```mermaid
-flowchart ID
+
+flowchart TD
 
 USER[Internet Users]
 
+
 ALB[AWS Application Load Balancer]
+
 
 EKS[Amazon EKS Cluster]
 
 
 POD[Application Container]
 
+
 RDS[Amazon RDS Database]
+
 
 S3[Amazon S3]
 
-CW[Cloudwatch]
 
+CW[Cloudwatch]
 
 
 USER --> ALB
