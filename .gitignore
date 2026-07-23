@@ -12,6 +12,7 @@ __pycache__/
 # AWS
 .aws/
 *.pem
+awscliv2.zip
 
 # Ansible
 *.retry
